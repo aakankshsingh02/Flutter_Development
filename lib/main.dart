@@ -19,20 +19,43 @@ class _MyAppState extends State<MyApp> {
   final ques = [
     {
       'questionText': "What's your favourite color?",
-      'answers': ["Magenta", 'White', 'Blue', 'Green'],
+      'answers': [
+        {"text": "Magenta", "score": 4},
+        {"text": 'White', "score": 9},
+        {"text": 'Blue', "score": 8},
+        {"text": 'Green', "score": 7}
+      ],
     },
     {
       'questionText': "What's your favourite animal?",
-      'answers': ["Panda", 'Lion', 'Tiger', 'Gorilla'],
+      'answers': [
+        {"text": "Panda", "score": 6},
+        {"text": 'Lion', "score": 8},
+        {"text": 'Tiger', "score": 9},
+        {"text": 'Gorilla', "score": 7}
+      ],
     },
     {
       'questionText': "What's your favourite city?",
-      'answers': ["New York", 'Dallas', 'Los Angeles', 'Las Vegas'],
+      'answers': [
+        {"text": "New York", "score": 6},
+        {"text": 'Dallas', "score": 5},
+        {"text": 'Los Angeles', "score": 8},
+        {"text": 'Las Vegas', "score": 10}
+      ],
     },
   ];
   var _quesT = 0;
+  var _totalScore = 0;
+  void _resetQuiz() {
+    setState(() {
+      _quesT = 0;
+      _totalScore = 0;
+    });
+  }
 
-  void answer() {
+  void answer(int score) {
+    _totalScore += score;
     setState(() {
       _quesT++;
     });
@@ -56,7 +79,7 @@ class _MyAppState extends State<MyApp> {
                   questionList: ques,
                   questionIndex: _quesT,
                 )
-              : const result()),
+              : result(_totalScore, _resetQuiz)),
     );
   }
 }
