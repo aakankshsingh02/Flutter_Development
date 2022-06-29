@@ -9,4 +9,8 @@ Date: 29/06/2022 ==> Today I released my first ever flutter build accessible at:
 
 Do visit!!! 
 
-From Today onwards the current Lib folder won't be updated I'll be adding new files from tomorrow showing my progress.
+From Today onwards the current Lib folder: https://github.com/aakankshsingh02/flutter_development/tree/main/lib 
+won't be updated you can access the complete code for use.
+
+
+I'll be adding new files from tomorrow showing my progress.
