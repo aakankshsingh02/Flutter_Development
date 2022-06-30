@@ -13,11 +13,8 @@ From Today onwards the current Lib folder: https://github.com/aakankshsingh02/fl
 won't be updated you can access the complete code for use.
 
 
-I've created new folder namely 
-Expense Planner Code Files: https://github.com/aakankshsingh02/flutter_development/tree/main/Expense%20Planner%20Code%20Files/lib
+I've created new folder namely Expense Planner Code Files
+Link: https://github.com/aakankshsingh02/flutter_development/tree/main/Expense%20Planner%20Code%20Files/lib
 
-Which will contain code files of my new project Expense Planner app/website using flutter. 
-Once the app would be completely build I'll release the app repository with apk.
-
-
-I'll be adding new files from tomorrow showing my progress.
+The folder will contain code files of my new project Expense Planner app/website using flutter. 
+Once the app/website would be completely build I'll release the repository with apk and website link.
