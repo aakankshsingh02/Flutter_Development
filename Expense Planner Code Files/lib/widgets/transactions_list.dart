@@ -4,12 +4,12 @@ import 'package:flutter_expense_planner/models/transaction.dart';
 import 'package:intl/intl.dart';
 
 class TransactionList extends StatelessWidget {
-  final List<Transaction> Transactions;
-  TransactionList(this.Transactions);
+  final List<Transaction> transactions;
+  TransactionList(this.transactions);
   @override
   Widget build(BuildContext context) {
     return Column(
-      children: Transactions.map((tx) {
+      children: transactions.map((tx) {
         return Card(
             child: Row(
           children: <Widget>[
