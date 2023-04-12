@@ -7,7 +7,7 @@ I'll be updating files daily with updated code.
 -------------------------------------------------xx----------------------------xx-----------------------------------
 
 
-Date: 29/06/2022 ==> Today I released my first ever flutter build accessible at: [First Build] (https://github.com/aakankshsingh02/First_Flutter_Build)
+Date: 29/06/2022 ==> Today I released my first ever flutter build accessible at: [First Build](https://github.com/aakankshsingh02/First_Flutter_Build)
 
 Do visit!!! 
 
